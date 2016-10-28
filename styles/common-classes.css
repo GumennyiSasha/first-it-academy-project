@@ -1,0 +1,10 @@
+html{
+  font-size: 0.9375em;
+  line-height: 1.73;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  width:100%;
+  clear: both;
+}

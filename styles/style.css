@@ -1,3 +1,29 @@
 @import url(structure.css);
 @import url(common-classes.css);
 
+.header-top{
+  background-color: #2b2b2b;
+}
+.header-top-phone{
+  float: left;
+  font-style: normal;
+}
+.header-top-phone a{
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.header-top-phone a:hover{
+  text-decoration: underline;
+}
+.header-top-user-links {
+  color: #3b3b3b;
+  font-size: 0.8em;
+  float: right;
+  text-align: right;
+}
+.header-top-user-links a{
+  color: #666666;
+  font-size: 0.93em;
+  text-decoration: none;
+}
+
