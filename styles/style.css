@@ -26,4 +26,33 @@
   font-size: 0.93em;
   text-decoration: none;
 }
+.header {
+  background-color: #232323;
+  border: 1px solid #323232;
+}
+.logo{
+  float: left;
+  border: 1px solid rgba(68, 232, 42, 0.98);
+}
+.header-search{
+  float: right;
+  border: 1px solid rgb(68, 232, 42);
+}
+.clear:after{
+  content: '';
+  display: block;
+  width:100%;
+  clear: both;
+}
+.header-nav{
+  border: 1px solid #323232;
+}
+/*
+.header-nav ul{
+  display: inline;
+}*/
+.header-nav li{
+  display: inline;
+  border: 1px solid rgb(68, 232, 42);
+}
 
