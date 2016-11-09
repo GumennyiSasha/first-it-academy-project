@@ -8,6 +8,7 @@
     <title>Gumennyi Sasha Store Project</title>
 </head>
 <body>
+<!--=======================HEADERS=======================-->
 <!--===HEADER-TOP===-->
 <div class="header-top">
   <div class="container clearfix">
@@ -24,12 +25,12 @@
       </a>
     </div>
     <form action="#" class="header-search ">
-      <input type="search" placeholder="Search Products..."/>
+      <input  type="search" placeholder="Search Products..."/>
       <button>Search</button>
     </form>
     <div class="clear"></div>
     <!--HEADER-NAVIGATION-->
-    <div class="cart"></div>
+    <div class="cart"><span class="count">2</span></div>
       <nav class="header-nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -45,15 +46,46 @@
 </header>
 <!--===================BODY==============================-->
 <div class="page-body">
-  <div class="container">
-    <div class="banner">
-      <div class="banner-text1"><span>2015</span> NEW Collections</div>
-      <div class="banner-text2"></div>
-      <div class="banner-shop"></div>
-    </div>
+  <!--=========Banner=========-->
+  <div class="container banner">
+      <div class="banner-text1"><span>2015 </span><span>NEW</span> Collections</div>
+      <div class="banner-text2">New colors and creative prints!</div>
+      <div class="banner-shop">SHOP NOW</div>
+  </div>
+  <!--====Featured-products====-->
+  <div class="container featured-products">
+    <h2 class="title">FEATURED PRODUCTS</h2>
+    <ul class="feature-products-list">
+      <li class="feature-product">
+        <div class="product-title"></div>
+        <div class="product-category"></div>
+        <div class="product-actions">
+          <img src="styles/images/img/sports-shoes-115149_1920.jpg" height="208px" width="208px">
+          <div class="additional-links">
+            <div class="add-to-cart"></div>
+            <ul>
+              <li><a href="#" class="to-favorites"></a></li>
+              <li><a href="#" class="to-comparison"></a></li>
+              <li><a href="#" class="zoom"></a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="product-price"></div>
+      </li>
+      <li class="feature-product"><img src="styles/images/img/sports-shoes-115149_1920.jpg" height="208px" width="208px">
+
+      </li>
+      <li class="feature-product"><img src="styles/images/img/sports-shoes-115149_1920.jpg" height="208px" width="208px">
+
+      </li>
+      <li class="feature-product"><img src="styles/images/img/sports-shoes-115149_1920.jpg" height="208px" width="208px">
+
+      </li>
+    </ul>
   </div>
 </div>
-
+<!--===================DOWN-SIDE=========================-->
 <div class="testimonials">
   <div class="container">
 
@@ -79,6 +111,5 @@
 
   </div>
 </footer>
-
 </body>
 </html>

@@ -1,5 +1,11 @@
+
+html{
+  font-size: 0.9375em;
+  line-height: 1.73;
+}
 body{
   min-width: 320px;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .container{
   max-width: 1170px;

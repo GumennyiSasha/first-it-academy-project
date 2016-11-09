@@ -1,0 +1,55 @@
+.banner{
+  height:480px;
+  width: 1170px;
+  background-image: url("images/img/woman-1695877_1920.jpg");
+}
+.banner-text1{
+  width: 425px;
+  font-size: 75px;
+  line-height: 61px;
+  padding:95px 0 0 40px;
+}
+.banner-text1 span{
+  font-size: 40px;
+}
+.banner-text1 span+span{
+  font-size: 80px;
+  font-weight: bold;
+}
+.banner-text2 {
+  font-size: 17px;
+  color: #666666;
+  padding:5px 0 0 47px;
+}
+.banner-shop{
+  height: 39px;
+  width: 110px;
+  background-color: #be926f;
+  font-size: 11px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 57px;
+  margin-left: 37px;
+  letter-spacing: 2px;
+}
+.featured-products{
+  border: 1px solid #323232;
+}
+.featured-products .title{
+  font-size: 17px;
+  line-height: 22px;
+}
+.feature-products-list{
+  display: flex;
+  list-style: none;
+  padding:0;
+}
+.feature-product{
+  flex-basis: 25%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+
