@@ -34,22 +34,5 @@
   margin-left: 37px;
   letter-spacing: 2px;
 }
-.featured-products{
-  border: 1px solid #323232;
-}
-.featured-products .title{
-  font-size: 17px;
-  line-height: 22px;
-}
-.feature-products-list{
-  display: flex;
-  list-style: none;
-  padding:0;
-}
-.feature-product{
-  flex-basis: 25%;
-  flex-shrink: 0;
-  box-sizing: border-box;
-}
-
+/*===========FEATURED-PRODUCTS.CSS==========*/
 
