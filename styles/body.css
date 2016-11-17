@@ -1,7 +1,8 @@
 .banner{
   height:480px;
-  width: 1170px;
+  width: 1140px;
   background-image: url("images/img/woman-1695877_1920.jpg");
+  margin-bottom: 57px;
 }
 .banner-text1{
   width: 425px;

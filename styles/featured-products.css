@@ -1,6 +1,5 @@
 .featured-products{
-  padding: 0 0;
-  border: 1px solid #323232;
+  width: 1170px;
 }
 .featured-products .title{
   font-size: 17px;
@@ -12,6 +11,7 @@
   padding:0;
 }
 .feature-product{
+  height: 376px;
   flex-basis: 25%;
   flex-shrink: 0;
   box-sizing: border-box;
@@ -19,9 +19,9 @@
   text-align: center;
 
 }
- .feature-product + .feature-product{
+.feature-product + .feature-product{
    border-left: 0;
- }
+}
 .product-actions{
   position: relative;
   height: 210px;
@@ -94,8 +94,10 @@
 .feature-product:hover .product-actions:before,
 .feature-product:hover .product-actions .additional-links{
   opacity: 1;
-  transition: opacity 0.2s;
+  transition: opacity 0.4s;
 }
+
+
 
 
 
