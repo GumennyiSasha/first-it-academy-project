@@ -1,0 +1,25 @@
+.advertisment{
+  display: flex;
+}
+.adv-sugget{
+  display: flex;
+  border: 1px solid #e6e6e6;
+}
+.adv-sugget .product1{
+  display: flex;
+}
+.adv-sugget .product2{
+  display: flex;
+}
+
+
+
+.small-adv{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e6e6e6;
+
+}
+.small-adv .category{
+  text-decoration: none;
+}
