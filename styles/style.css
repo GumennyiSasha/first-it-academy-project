@@ -4,7 +4,8 @@
 @import url(body.css);
 @import url(featured-products.css);
 @import url(advertisment.css);
-
+@import url(new-posts.css);
+@import url(testimonials.css);
 
 /*.banner-text1 span{
   font-size: 40px;

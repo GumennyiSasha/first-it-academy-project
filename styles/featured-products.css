@@ -1,9 +1,8 @@
-.featured-products{
-  width: 1170px;
-}
+
 .featured-products .title{
   font-size: 17px;
   line-height: 22px;
+
 }
 .feature-products-list{
   display: flex;
@@ -17,7 +16,18 @@
   box-sizing: border-box;
   border: 1px solid #e6e6e6;
   text-align: center;
-
+  margin-bottom: 30px;
+}
+.featured-products .product-title{
+  margin-top: 28px;
+  font-size: 17px;
+  line-height: 22px;
+  color: #232323;
+}
+.featured-products .product-category{
+  font-size: 12px;
+  line-height: 24px;
+  color: #999999;
 }
 .feature-product + .feature-product{
    border-left: 0;
@@ -56,7 +66,6 @@
   margin: auto;
   width: 130px;
   height: 84px;
-
 }
 
 .product-actions .additional-links .add-to-cart{
@@ -74,6 +83,7 @@
   border: 1px solid #be926f;
   background-position: center center;
   background-repeat: no-repeat;
+  text-decoration: none;
 }
 .product-actions .additional-links .to-favorites{
   background-image: url("images/icon/favorites.png");
@@ -90,6 +100,11 @@
   font-size: 20px;
   line-height: 24px;
 }
+.product-price s{
+  color: #aeaeae;
+  font-size: 20px;
+  line-height: 24px;
+}
 
 .feature-product:hover .product-actions:before,
 .feature-product:hover .product-actions .additional-links{
@@ -97,7 +112,29 @@
   transition: opacity 0.4s;
 }
 
+.to-favorites:hover,
+.to-comparison:hover,
+.zoom:hover{
+  background-color: #be926f;
+}
 
+.add-to-cart a{
+  color: #ffffff;
+  text-decoration: none;
+}
 
+.product-actions .sale{
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: -16px;
+  right: -20px;
+  background-color: #be926f;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 40px;
+  color: #ffffff;
+}
 
 
