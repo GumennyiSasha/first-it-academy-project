@@ -28,3 +28,9 @@
   margin: 0 auto;
   padding: 0 10px;
 }
+.testimonials .rectangle{
+  height: 37px;
+  width: 37px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+}
