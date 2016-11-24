@@ -1,0 +1,28 @@
+.subscriptions{
+  display: flex;
+}
+.subscriptions h4{
+  margin: 0;
+}
+.subscriptions p{
+  margin: 0;
+  padding-right: 77px;  
+}
+.subscriptions .description{
+  flex-basis: calc(50% - 20px) ;
+}
+.subscriptions .subscribe{
+  flex-basis: calc(50% + 20px);
+
+}
+.subscribe form {
+  display: flex;
+
+}
+.subscriptions .search-form input{
+  border: 1px solid #e8e8e8;
+  flex-grow: 1;
+}
+.subscriptions .search-form button{
+  flex-grow: 1;
+}
