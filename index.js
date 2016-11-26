@@ -1,4 +1,5 @@
-/**
- * Created by Olexandr on 26.11.2016.
- */
-
+$(function () {
+  $('.banners').slick({
+    arrows:false
+  });
+})
