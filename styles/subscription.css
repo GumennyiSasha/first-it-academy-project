@@ -6,7 +6,7 @@
 }
 .subscriptions p{
   margin: 0;
-  padding-right: 77px;  
+  padding-right: 77px;
 }
 .subscriptions .description{
   flex-basis: calc(50% - 20px) ;
