@@ -1,0 +1,41 @@
+.customer-links{
+  background-color: #e8e8e8;
+}
+.c-links{
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+.c-link1, .c-link2, .c-link3, .c-link4 {
+  display: flex;
+  align-items: center;
+}
+.c-links span{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 72px;
+}
+.c-link1 .icon{
+   background: url("images/icon/customer-link1.png") center center no-repeat;
+   width: 40px;
+   height: 40px;
+   margin: 0 11px;
+ }
+.c-link2 .icon{
+  background: url("images/icon/customer-link2.png") center center no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 0 11px;
+}
+.c-link3 .icon{
+  background: url("images/icon/customer-link3.png") center center no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 0 11px;
+}
+.c-link4 .icon{
+  background: url("images/icon/customer-link4.png") center center no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 0 11px;
+}

@@ -1,5 +1,8 @@
 $(function () {
   $('.banners').slick({
-    arrows:false
+    arrows:false,
+    dots:true,
+    autoplay:true,
+    autoplayspeed:2000,
   });
 })

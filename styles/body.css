@@ -1,8 +1,16 @@
-.banners{
+/*.banners{
   height:480px;
   width: 1140px;
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: auto;
+  margin-bottom: 57px;
+}*/
+.banner{
+  height:480px;
+  width: 1140px;
+  background-repeat: no-repeat;
+ /*background-position: center center;*/
   background-size: auto;
   margin-bottom: 57px;
 }
