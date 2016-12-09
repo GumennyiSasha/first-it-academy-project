@@ -10,11 +10,5 @@
 @import url(customer-links.css);
 @import url(contacts.css);
 @import url(footer.css);
-
-/*.banner-text1 span{
-  font-size: 40px;
-}
-.banner-text1 span+span{
-  font-size: 75px;
-  border: 1px solid rgb(68, 232, 42);
-}*/
+/*Office chair*/
+@import url(office-chair.css);
