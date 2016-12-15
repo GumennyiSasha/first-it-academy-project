@@ -31,6 +31,8 @@
   margin-bottom: 58px;
 }
 .new-post{
+  display: flex;
+  flex-direction: column;
   border-bottom: 1px solid #e8e8e8;
   flex-basis: calc(25% - 24px);
 }
@@ -55,9 +57,11 @@
   color: #999999;
   font-size: 14px;
   line-height: 24px;
+
 }
 .time-post{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: auto;
 }

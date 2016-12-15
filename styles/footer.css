@@ -7,10 +7,14 @@
   color: #999999;
   font-size: 13px;
   line-height: 24px;
+  padding: 0;
 }
 .footer1 .info a{
   color: #999999;
   text-decoration: none;
+}
+.footer1 .info span{
+  margin-right: 28px;
 }
 .footer1 .social{
   display: flex;
@@ -28,8 +32,15 @@
   width: 19px;
 }
 
-.footer1 .google+{
-  background-image: url("images/icon/google+.png");
+.footer1 .google{
+  background-image: url("images/icon/google.png");
+  height: 19px;
+  width: 19px;
+  margin-left: 24px;
+}
+
+.footer1 .google:hover{
+  background-image: url("images/icon/google-hover.png");
   height: 19px;
   width: 19px;
 }
@@ -43,4 +54,5 @@
   background-image: url("images/icon/facebook.png");
   height: 19px;
   width: 19px;
+  margin-left: 24px;
 }
