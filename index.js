@@ -7,7 +7,7 @@ $(document).ready(function() {
     autoplayspeed:2000,
   });
 
-  var $slider2 = $('.posts');
+ var $slider2 = $('.posts');
   $slider2.slick({
     infinite:true,
     slidestoshow:4,
@@ -17,13 +17,4 @@ $(document).ready(function() {
   });
 });
 
-
-/*$(function () {
-  $('.banners').slick({
-    arrows:false,
-    dots:true,
-    autoplay:true,
-    autoplayspeed:2000,
-  });
-})*/
 

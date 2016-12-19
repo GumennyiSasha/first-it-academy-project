@@ -25,16 +25,18 @@
 }
 /*POSTS*/
 .posts{
-  display: flex;
   margin: 0 auto;
   justify-content: space-between;
   margin-bottom: 58px;
 }
 .new-post{
-  display: flex;
-  flex-direction: column;
+  margin-right: 20px;
+  float: left;
   border-bottom: 1px solid #e8e8e8;
-  flex-basis: calc(25% - 24px);
+  width: calc(25% - 24px);
+}
+.new-post+.new-post+.new-post+.new-post{
+  margin-right: 0;
 }
 .post-img{
   border: 1px solid #ffe0cb;

@@ -64,6 +64,7 @@
 
 .header-search button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0 20px 20px 0;
 }
 
 .clear:after{
