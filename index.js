@@ -9,11 +9,10 @@ $(document).ready(function() {
 
  var $slider2 = $('.posts');
   $slider2.slick({
-    infinite:true,
-    slidestoshow:4,
-    slidestoscroll:1,
+    infinite: true,
+    slidesToShow: 4,
+    arrows:false,
     autoplay:true,
-    autoplayspeed:2000,
   });
 });
 
