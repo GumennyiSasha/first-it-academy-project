@@ -1,3 +1,8 @@
+.subscription{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .subscriptions{
   display: flex;
 }
@@ -11,18 +16,14 @@
 .subscriptions .description{
   flex-basis: calc(50% - 20px) ;
 }
-.subscriptions .subscribe{
-  flex-basis: calc(50% + 20px);
-}
-
-.subscription{
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
 
 .subscribe{
   display: flex;
   flex-grow: 1;
+}
+
+.subscriptions .subscribe{
+  flex-basis: calc(50% + 20px);
 }
 
 .subscribe form {
@@ -52,9 +53,26 @@
   background-position: 21px;
 }
 
-@media (max-width:740px) {
+@media (max-width:1030px) {
+  .search-form{
+    flex-direction: column;
+  }
+  .space{
+    height: 20px;
+  }
+  .subscriptions .search-form input{
+    height: 46px;
+  }
+}
+
+@media (max-width:500px) {
   .subscriptions{
     flex-direction: column;
-    align-items: center;
+  }
+  .search-form{
+    flex-direction: column;
+  }
+  .space{
+    height: 20px;
   }
 }

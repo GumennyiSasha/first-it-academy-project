@@ -1,4 +1,7 @@
 /*SIDEBAR*/
+.slider h2{
+  text-align: center;
+}
 .new-posts .slider{
   display: flex;
   box-sizing: border-box;
@@ -33,7 +36,6 @@
   margin-right: 20px;
   float: left;
   border-bottom: 1px solid #e8e8e8;
-
   width: calc(25% - 24px);
 }
 .new-post+.new-post+.new-post+.new-post{

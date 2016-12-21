@@ -79,10 +79,7 @@
   font-size: 20px;
   line-height: 22px;
 }
-.small-adv .price{
 
-
-}
 .small-adv .price a{
   margin-left: 28px;
   color: #be926f;
@@ -106,3 +103,43 @@
   }
 }
 
+@media (max-width:800px) {
+  .advertisment{
+    max-width: 700px;
+    flex-wrap: wrap;
+  }
+  .adv-sugget{
+    margin: 0;
+    flex-basis: 100%;
+  }
+  .small-adv{
+    flex-basis: 100%;
+  }
+  .adv-sugget{
+    margin-bottom: 20px;
+  }
+  .client{
+    align-content: space-between;
+    max-width: 402px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:590px) {
+  .adv-sugget{
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .adv-sugget{
+    margin-bottom: 20px;
+  }
+  .adv-sugget .product1,.adv-sugget .product2{
+    margin: 0;
+  }
+}
+@media (max-width:590px) {
+  .client{
+    flex-direction: column;
+    align-items: center;
+  }
+}

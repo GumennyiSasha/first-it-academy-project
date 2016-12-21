@@ -4,7 +4,7 @@ $(document).ready(function() {
     arrows:false,
     dots:true,
     autoplay:true,
-    autoplayspeed:2000,
+    autoplayspeed:2000
   });
 
  var $slider2 = $('.posts');
@@ -13,6 +13,14 @@ $(document).ready(function() {
     slidesToShow: 4,
     arrows:false,
     autoplay:true,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      }]
   });
 });
 
