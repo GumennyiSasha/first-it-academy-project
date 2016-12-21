@@ -56,3 +56,10 @@
   width: 19px;
   margin-left: 24px;
 }
+
+@media (max-width:740px) {
+  .footer1{
+    flex-direction: column;
+    align-items: center;
+  }
+}
