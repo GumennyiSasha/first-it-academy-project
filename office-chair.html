@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:slidesToShow="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -10,7 +10,7 @@
 
   <title>Gumennyi Sasha Store Project</title>
 </head>
-<body>
+<body bgcolor="#f7f7f7">
 <!--=======================HEADERS=======================-->
 <!--===HEADER-TOP===-->
 <div class="header-top">
@@ -38,7 +38,7 @@
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Living room</a></li>
-        <li><a href="#">Office</a></li>
+        <li><a href="office-chair.html">Office</a></li>
         <li><a href="#">Bedroom</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
@@ -49,20 +49,49 @@
 </header>
 <!--===================BODY==============================-->
 <div class="page-body">
-  <div class="container title-chair">
-    <div class="main-title"></div>
-    <div class="home-products"></div>
+  <div class="container imageprew">
+    <div class=" product-prewiev" data-slick='{"slidesToShow":3, "slidesToScroll":3}'>
+      <div class="thumbs">
+        <a class="fancybox" href="styles/images/img/18351.jpg" title="image1">
+          <img src="styles/images/img/18351.jpg" alt="image1">      </a>
+        <a class="fancybox" href="styles/images/img/73154.jpg" title="image2">
+          <img src="styles/images/img/73154.jpg" alt="image2">      </a>
+        <a class="fancybox" href="styles/images/img/43810.jpg" title="image3">
+          <img src="styles/images/img/43810.jpg" alt="image3">      </a>
+      </div>
+      <div class="product-image">
+        <img id="product-image" src="styles/images/img/18351.jpg" alt="image1">
+      </div>
+    </div>
+    <div class="prewiev-description">
+      <div class="title">Office chair</div>
+      <div class="stars"><span>stars</span>  (23 review)</div>
+      <div class="about">Pellentesque at neque porta, auctor felis eu, pulvinar magna. Donec placerat lectus nec ligula scelerisque scelerisque. Nulla fringilla urna scelerisque nisi mollis ultrices. Curabitur vulputate risus elementum, interdum dui quis, sodales risus.</div>
+      <div class="price"><s>$190.00  </s>$90.00</div>
+      <div class="color">Color:</div>
+      <div class="add-to-cart">add to cart</div>
+      <div class="share">Share on:</div>
+
+    </div>
   </div>
-  <!--====Featured-products====-->
-  <div class="container featured-products">
-    <h2 class="title">FEATURED PRODUCTS</h2>
+
+
+
+  <div class="container related-products">
+    <div class="slider">
+      <img src="styles/images/icon/previous.png" width="13" height="23" alt="perw">
+      <div class="prev">Prew</div>
+      <h2>New posts</h2>
+      <div class="next">Next</div>
+      <img src="styles/images/icon/next.png" width="13" height="23" alt="next">
+    </div>
     <ul class="feature-products-list">
       <li class="feature-product">
         <div class="product-title">Denim Chart In<br>
           Slim Fit</div>
         <div class="product-category">Living room</div>
         <div class="product-actions">
-          <img src="styles/images/img/sports-shoes-115149_1920.jpg" height="210px" width="210px">
+          <img src="styles/images/img/sports-shoes-115149_1920.jpg" height="210" width="210" alt="product1">
           <div class="additional-links">
             <div class="add-to-cart"><a href="#">Add to Cart   ></a></div>
             <ul>
@@ -72,14 +101,14 @@
             </ul>
           </div>
         </div>
-        <div class="product-price">$124</div>
+        <div class="product-price"><s>$150</s>  $124</div>
       </li>
       <li class="feature-product">
         <div class="product-title">Ballari Chair
           <br>Hodak </div>
         <div class="product-category">Bedroom</div>
         <div class="product-actions">
-          <img src="styles/images/img/shoe-1433925_1920.jpg" height="210px" width="210px">
+          <img src="styles/images/img/shoe-1433925_1920.jpg" height="210" width="210" alt="product2">
           <div class="additional-links">
             <div class="add-to-cart"><a href="#">Add to Cart   ></a></div>
             <ul>
@@ -89,14 +118,15 @@
             </ul>
           </div>
         </div>
-        <div class="product-price">$76</div>
+        <div class="product-price"><s>$85</s>  $76</div>
       </li>
       <li class="feature-product">
         <div class="product-title">Shayla Pendant
           <br>Chair</div>
         <div class="product-category">Bedroom</div>
         <div class="product-actions">
-          <img src="styles/images/img/sports-shoes-115149_1920.jpg" height="210px" width="210px">
+          <div class="sale">SALE</div>
+          <img src="styles/images/img/sports-shoes-115149_1920.jpg" height="210" width="210" alt="product3">
           <div class="additional-links">
             <div class="add-to-cart"><a href="#">Add to Cart   ></a></div>
             <ul>
@@ -106,14 +136,14 @@
             </ul>
           </div>
         </div>
-        <div class="product-price">$92</div>
+        <div class="product-price"><s>$100</s>  $92</div>
       </li>
       <li class="feature-product">
         <div class="product-title">Cloverfield Wilcot
           <br>Chair</div>
         <div class="product-category">Office</div>
         <div class="product-actions">
-          <img src="styles/images/img/shoe-1433925_1920.jpg" height="210px" width="210px">
+          <img src="styles/images/img/shoe-1433925_1920.jpg" height="210" width="210" alt="product4">
           <div class="additional-links">
             <div class="add-to-cart"><a href="#">Add to Cart   ></a></div>
             <ul>
@@ -123,10 +153,12 @@
             </ul>
           </div>
         </div>
-        <div class="product-price">$117</div>
+        <div class="product-price"><s>$150</s>  $117</div>
       </li>
     </ul>
   </div>
+  <!--========New Posts========-->
+  <div class="clearfix"></div>
 </div>
 <!--===================DOWN-SIDE=========================-->
 <div class="testimonial">
@@ -148,6 +180,7 @@
     <div class="subscribe">
       <form class="search-form" action="#">
         <input  type="search" placeholder="Email adress"/>
+        <div class="space"></div>
         <button>Subscribe</button>
       </form>
     </div>
@@ -196,12 +229,12 @@
 <footer class="footer">
   <div class="container footer1">
     <div class="rights">2016 Domain.com. All rights reserved</div>
-    <div class="info"><a href="#">Terms & Conditions        Privacy        Downloads</a></div>
+    <div class="info"><a href="#"><span>Terms & Conditions</span><span>Privacy</span><span>Downloads</span></a></div>
     <div class="social">
       <a href="#">
         <div class="twitter"></div></a>
       <a href="#">
-        <div class="google+"></div></a>
+        <div class="google"></div></a>
       <a href="#">
         <div class="facebook"></div></a>
     </div>

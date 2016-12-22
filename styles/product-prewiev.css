@@ -1,0 +1,39 @@
+
+.product-prewiev{
+  display: inline-block;
+  width: 670px;
+  height: 620px;
+  overflow: hidden;
+}
+.product-prewiev .thumbs {
+  width: 140px;
+  float: left;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+.product-prewiev .thumbs a{
+  display: block;
+  border: none;
+  margin: 15px 0;
+}
+.product-prewiev .thumbs img{
+  width: 140px;
+  height: 180px;
+  display: block;
+}
+
+.product-prewiev .product-image{
+  width: 500px;
+  height: 600px;
+  float: right;
+  background: #cccccc;
+}
+
+.product-prewiev .product-image img{
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+  object-position: center left;
+}
+
+

@@ -1,0 +1,59 @@
+.prewiev-description{
+  width: 436px;
+  height: 600px;
+  float: right;
+}
+.prewiev-description .title{
+  font-size: 30px;
+  line-height: 24px;
+  color: #232323;
+  margin-bottom: 30px;
+}
+.prewiev-description .stars{
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.prewiev-description .stars span{
+  font-size: 16px;
+  line-height: 24px;
+  color: #f0c25b;
+}
+.prewiev-description .about{
+  font-size: 15px;
+  line-height: 24px;
+  color: #666666;
+  margin: 30px 0;
+}
+.prewiev-description .price{
+  font-size: 27px;
+  line-height: 24px;
+  color: #ff0000;
+  margin-bottom: 55px;
+}
+.prewiev-description .price s{
+  font-size: 27px;
+  line-height: 24px;
+  color: #cccccc;
+}
+.prewiev-description .color{
+  font-size: 20px;
+  line-height: 24px;
+  color: #5b5b5b;
+  margin-bottom: 30px;
+}
+.prewiev-description .add-to-cart{
+  width: 160px;
+  height: 60px;
+  background-color: #be926f;
+  color: #f0ebe8;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 80px;
+}
+.prewiev-description .share{
+  font-size: 20px;
+  line-height: 24px;
+  color: #5b5b5b;
+}

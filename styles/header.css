@@ -87,6 +87,14 @@
 .header-nav li{
   display: inline;
 }
+@media (max-width:352px) {
+  .header-nav li{
+    display: block;
+  }
+  .header-nav li+li{
+    padding-left: 0;
+  }
+}
 .header-nav a{
   color: #ffffff;
   text-decoration: none;

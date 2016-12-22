@@ -1,0 +1,29 @@
+.related-products{
+
+}
+.slider h2{
+  text-align: center;
+}
+.related-products .slider{
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  /*align-content: space-between;*/
+  height: 83px;
+}
+.related-products h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  flex-grow: 1;
+}
+.related-products .prev,
+.related-products .next{
+  text-transform: uppercase;
+  color:#999999;
+}
+.related-products .prev{
+  margin-left: 16px;
+}
+.related-products .next{
+  margin-right: 16px;
+}

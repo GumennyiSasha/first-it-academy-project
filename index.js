@@ -24,4 +24,20 @@ $(document).ready(function() {
   });
 });
 
+$(function(){
+  $('.product-prewiev .thumbs').slick({
+    slidesToShow:3,
+    vertical:true,
+    verticalSwiping:true,
+    arrows:false
+    });
+
+  $('.thumbs a').on('click', function(e) {
+    e.preventDefault();
+    var picLink = $(this).attr('href');
+    console.log(picLink);
+    $('#product-image').attr('src', picLink)
+  })
+});
+
 
