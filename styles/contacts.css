@@ -2,15 +2,25 @@
   border-bottom: 1px solid #e6e6e6;
 }
 .contact{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+
   justify-content: space-around;
   padding-bottom: 40px;
 }
 
 .contact .mail, .contact .location, .contact .call{
   margin-top: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -64,7 +74,12 @@
 
 @media (max-width:600px) {
   .contact{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }

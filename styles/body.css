@@ -1,16 +1,9 @@
-/*.banners{
-  height:480px;
-  width: 1140px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto;
-  margin-bottom: 57px;
-}*/
+
 .banner{
   height:480px;
   width: 1140px;
   background-repeat: no-repeat;
- /*background-position: center center;*/
+  /*background-position: center center;*/
   background-size: auto;
   margin-bottom: 57px;
 }
@@ -38,12 +31,16 @@
   background-color: #be926f;
   font-size: 11px;
   color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 57px;
   margin-left: 37px;
   letter-spacing: 2px;
 }
-/*===========FEATURED-PRODUCTS.CSS==========*/
-

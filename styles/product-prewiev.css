@@ -1,6 +1,9 @@
-
+.imageprew{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .product-prewiev{
-  display: inline-block;
   width: 670px;
   height: 620px;
   overflow: hidden;
@@ -32,8 +35,30 @@
 .product-prewiev .product-image img{
   width: 500px;
   height: 600px;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center left;
   object-position: center left;
 }
 
+@media (max-width:1200px) {
+  .product-prewiev .product-image
+  {
+    height: 0;
+    width: 0;
+    display: none;
+  }
+  .product-prewiev{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 700px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 
+
+}

@@ -2,8 +2,15 @@
   background-color: #292929;
 }
 .testimonials{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-bottom: 40px;
 }
@@ -15,6 +22,8 @@
   text-align: center;
 }
 .testimonials .line{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 2px;
   width: 20px;
@@ -33,6 +42,7 @@
   height: 37px;
   width: 37px;
   background-color: #ffffff;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   border: 1px solid #735d4c;
 }

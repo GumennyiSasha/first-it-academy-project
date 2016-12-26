@@ -3,8 +3,12 @@
   text-align: center;
 }
 .new-posts .slider{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   /*align-content: space-between;*/
   height: 83px;
@@ -13,6 +17,8 @@
 .new-posts h2{
   text-transform: uppercase;
   font-size: 18px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 .new-posts .prev,
@@ -29,6 +35,8 @@
 /*POSTS*/
 .posts{
   margin: 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 58px;
 }
@@ -65,8 +73,14 @@
 
 }
 .time-post{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-top: auto;
 }
